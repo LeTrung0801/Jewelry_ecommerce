@@ -1,0 +1,75 @@
+header .input-group{
+	margin: 0;
+}
+
+header {
+	background-color: white;
+
+}
+.card-box.form{
+    padding: 20px;
+}
+.pd-ltr-20 {
+    padding: 10px 20px 10px 20px;
+}
+.btn-outline-admin{
+    border: 1px solid !important;
+    color: #E8A0BF;
+}
+.btn-admin{
+    background: #E8A0BF;
+    color: #ffffff ;
+}
+.btn-admin:hover{
+    background: #E6B325;
+    color: #ffffff ;
+}
+
+.progress-data{
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    border-radius: 50%;
+}
+
+.progress-data.money{
+    background: var(--sign);
+}
+
+.progress-data.order{
+    background: mediumseagreen;
+}
+
+.progress-data.user{
+    background: var(--main);
+}
+
+.widget-data .money{
+    color: var(--sign);
+}
+
+.widget-data .order{
+    color: mediumseagreen;
+}
+
+.widget-data .user{
+    color: var(--main);
+}
+
+.sort div {
+    align-self: center;
+}
+
+#select-date, #select-month {
+    display: none;
+}
+
+table.data-table tbody tr td input{
+    width: 100px;
+}
+
+.modal-dialog {
+    max-width: 900px;
+}
+
+
